@@ -1,5 +1,5 @@
+// @ts-nocheck
 import axiosInstance from "../configs/axios";
-
 export const authService = {
   register: async (data) => {
     const response = await axiosInstance({

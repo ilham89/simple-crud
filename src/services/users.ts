@@ -1,5 +1,5 @@
+// @ts-nocheck
 import axiosInstance from "../configs/axios";
-
 export const userService = {
   list: async (page) => {
     const response = await axiosInstance({
